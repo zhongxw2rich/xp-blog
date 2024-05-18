@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const App = () => {
+const Hello = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
@@ -29,4 +29,4 @@ const App = () => {
       );
 };
 
-export default App;
+export default Hello;
